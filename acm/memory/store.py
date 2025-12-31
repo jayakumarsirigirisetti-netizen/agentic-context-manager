@@ -1,3 +1,4 @@
+
 from typing import List
 from acm.core.memory_object import MemoryObject
 from acm.memory.vector_store import VectorStore
@@ -28,3 +29,7 @@ class MemoryStore:
         self.prune()
         ids = self.vector_store.search(query_embedding, top_k)
         return [m for m in self.memories if m.id in ids]
+    def size(self) -> int:
+        """Return number of stored vectors."""
+        return self.vector_store.index.ntotal
+
