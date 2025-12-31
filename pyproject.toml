@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-context-manager"
+version = "0.1.0"
+description = "Deterministic memory layer for AI agents"
+authors = [{ name="Jaya Kumar" }]
+dependencies = []
+
