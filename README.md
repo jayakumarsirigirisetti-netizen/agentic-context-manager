@@ -20,6 +20,16 @@ Most teams try to solve this inside prompts.
 That approach does not scale.
 
 ---
+## Why ACM exists
+
+Most agents fail because memory is unmanaged.
+We measured this in real runs:
+
+- Naive agent tokens: 30,670
+- ACM agent tokens:   3,191
+- Reduction: ~89%
+
+This is not prompt optimization — this is memory control.
 
 ## The Solution
 
