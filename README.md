@@ -97,6 +97,10 @@ Why now?
 - Most teams are still hacking memory inside prompts; very few have dedicated context infra.
 
 ACM exists because **agents are scaling faster than their memory architecture**. We want to be the default memory layer for AI-native products.
+## Looking for Design Partners
+If you're building agentic systems and want to reduce costs,
+email: sirijayakumar7@gmail.com
+
 
 Quickstart
 ----------
